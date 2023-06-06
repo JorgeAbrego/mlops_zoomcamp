@@ -1,0 +1,57 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-06T01:42:14.144001",
+    "startedAt": "2023-06-06T01:42:12.905988",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlopszoomcamp",
+        "--wandb_entity",
+        "jorgeabrego",
+        "--data_artifact",
+        "jorgeabrego/mlopszoomcamp/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Vlady\\Notebooks\\DTC\\mlops-zoomcamp\\Week 2\\homework-wandb\\sweep.py",
+    "codePath": "Week 2\\homework-wandb\\sweep.py",
+    "git": {
+        "remote": "https://github.com/JorgeAbrego/mlops_zoomcamp.git",
+        "commit": "dacbbc387e806aead18be7aa86263dbc4b3c4ad0"
+    },
+    "email": "jorge.abrego@gmail.com",
+    "root": "C:/Users/Vlady/Notebooks/DTC/mlops-zoomcamp",
+    "host": "Vlady-Gaming",
+    "username": "Vlady",
+    "executable": "C:\\Anaconda3\\envs\\wandb\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2301.0,
+        "min": 0.0,
+        "max": 2301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2301.0,
+            "min": 0.0,
+            "max": 2301.0
+        }
+    ],
+    "disk": {
+        "total": 476.62244415283203,
+        "used": 336.51021575927734
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 31.708492279052734
+    }
+}
