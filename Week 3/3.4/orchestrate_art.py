@@ -150,7 +150,7 @@ def main_flow_art(
     # Train
     train_best_model(X_train, X_val, y_train, y_val, dv)
     
-    email_address = 'jorge.abrego@gmail.com'
+    email_address = '[email here]'
     
     email_credentials_block = EmailServerCredentials.load("gmail-jvaa")
     subject = email_send_message.with_options(name=f"email {email_address}").submit(
